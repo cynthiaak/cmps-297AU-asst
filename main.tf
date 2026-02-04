@@ -1,6 +1,6 @@
 # Terraform provider
 provider "aws" {
-  region = "eu-north-1b"
+  region = "eu-north-1"
 }
 
 # Security group allowing SSH and HTTP
