@@ -2,7 +2,7 @@
 # Provider
 # -------------------------------
 variable "aws_region" {
-  description = "AWS region"
+  description = "eu-west-1"
   type        = string
 }
 
@@ -14,24 +14,24 @@ provider "aws" {
 # Variables
 # -------------------------------
 variable "bucket_name" {
-  description = "S3 bucket name"
+  description = "aub-lab4-cynthia-khalil"
   type        = string
 }
 
 variable "instance_name" {
-  description = "EC2 instance name"
+  description = "lab4-main"
   type        = string
 }
 
 variable "ami_id" {
-  description = "AMI ID for EC2"
+  description = "ami-0e530657722215a4d"
   type        = string
 }
 
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.micro"
+  default     = "t3.micro"
 }
 
 # -------------------------------
